@@ -1,3 +1,4 @@
+import 'package:flare_splash_screen/flare_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:todo_app/ui/home_page.dart';
 
@@ -13,7 +14,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: SplashScreen.navigate(
+        name: 'assets/splashIntro.flr',
+        next: (context) => HomePage(),
+        until: () => Future.delayed(Duration(seconds: 5)),
+        startAnimation: 'intro',
+      ),
+      // home: HomePage(),
     );
   }
 }
