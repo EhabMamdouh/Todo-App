@@ -43,7 +43,14 @@ class _HomePageState extends State<HomePage> {
         future: healper.allTodo(),
         builder: (context, AsyncSnapshot snapshot) {
           if (!snapshot.hasData) {
-            return Center(child: CircularProgressIndicator());
+            return Center(
+                child: Text(
+              'Add New Todo',
+              style: TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.grey),
+            ));
           }
           return ListView.builder(
             itemCount: snapshot.data.length,
