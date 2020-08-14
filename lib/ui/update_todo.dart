@@ -184,7 +184,7 @@ class _UpdateTodoState extends State<UpdateTodo> {
               border: InputBorder.none,
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
-                Icons.data_usage,
+                Icons.timer,
                 color: Colors.white,
               ),
             ),
