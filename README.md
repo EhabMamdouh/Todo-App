@@ -1,4 +1,4 @@
-# Todo-App (if you love this app please give me a star)
+# Todo-App (if you like this app please give me a star)
 ![SNAG-41122321143400](https://user-images.githubusercontent.com/59305419/90184395-569a6700-ddb5-11ea-9218-b9f165bbd384.png)
 ![SNAG-41122321145300](https://user-images.githubusercontent.com/59305419/90184398-57cb9400-ddb5-11ea-9dd5-872ae057e0e7.png)
 ![SNAG-41122321151200](https://user-images.githubusercontent.com/59305419/90184400-58642a80-ddb5-11ea-92ab-87e5155d445a.png)
